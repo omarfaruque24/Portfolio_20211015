@@ -1,0 +1,25 @@
+body{
+  display: grid;
+  grid-template-columns: 15% 85% ;
+  background-color: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+}
+.side-manue{
+  border: 1px solid red;
+  height: 100%;
+}
+.content-area{
+  height: auto;
+  border: 1px solid red;
+  display: flex;
+}
+.heading-area img{
+  width: 80%;
+  height: auto;
+  border: 5px solid #755ff0;
+  border-radius: 50%;
+
+} 
+.menue-area .fa{
+  color: #4285f4
+}
