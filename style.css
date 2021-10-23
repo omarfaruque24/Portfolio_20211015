@@ -2,24 +2,49 @@ body{
   display: grid;
   grid-template-columns: 15% 85% ;
   background-color: #f7f7f7;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .side-manue{
-  border: 1px solid red;
+  font-family: "Open Sans", sans-serif;
   height: 100%;
+  position: fixed;
+  float: left;
+  padding-left: 30px;
 }
-.content-area{
-  height: auto;
-  border: 1px solid red;
-  display: flex;
-}
-.heading-area img{
-  width: 80%;
-  height: auto;
-  border: 5px solid #755ff0;
-  border-radius: 50%;
 
+.heading-area img{
+  width: 20%;
+  height: auto;
+  border: 3px solid #755ff0;
+  border-radius: 50%;
+  border: auto;
 } 
+
+.menue-area{
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.menu-item{
+
+  padding-top: 30px;
+}
 .menue-area .fa{
   color: #4285f4
 }
+.content-area{
+  
+  height: auto;
+  position: relative;
+  left: 100%;
+}
+
+#home{
+  background-image: url(home-bg.jpg);
+  background-color: rgba(#000000, #000000, #000000, alpha);
+  width: 100%;
+  height: 100vh;
+  
+}
+
